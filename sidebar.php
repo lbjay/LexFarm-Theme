@@ -17,11 +17,11 @@
         <?php endif ?>
         <!--
         <div class="sidebar" id="upcoming">
-            <h3><a href="http://lexfarm.org/archives/342">Upcoming Event</a></h3>
-            <h4>Don't miss our panel discussion on Dec 3rd</h4>
-            Learn about a day in the life<br/>
-            of a community farm (and more!)<br/>
-            <a href="http://lexfarm.org/archives/342">more info...</a>
+            <h3><a href="http://lexfarm.org/archives/424">Upcoming Event</a></h3>
+            <h4>LexFarm Candidate's Night</h4>
+            Hear what the Selectman candidates<br/>
+            have to say & ask your own questions!<br/>
+            <a href="http://lexfarm.org/archives/424">more info...</a>
         </div>
         -->
         <?php if (!is_page('farm-petition')) : ?>
