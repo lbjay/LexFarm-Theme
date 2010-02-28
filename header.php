@@ -18,15 +18,17 @@
                 <ul>
 				<li class="page_item<?php if (is_home() || is_single()) {echo ' current_page_item';} ?>"><a href="<?php bloginfo('url'); ?>">Home</a></li>
 				<?php wp_list_pages('meta_key=header_menu&meta_value=1&title_li=&depth=1'); ?>
-                <li class="page_item"><a class="external" href="http://groups.google.com/group/lex-community-farm">Email Signup</a></li>
+<!--                <li class="page_item"><a class="external" href="http://groups.google.com/group/lex-community-farm">Email Signup</a></li> -->
                 </ul>
 			</div>
+            <!--
 			<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
 			<div class="alignright">
 				<input type="text" class="textinput" value="<?php echo wp_specialchars(stripslashes($_GET['s']), true) ?>" name="s" id="s"></input>
 				<input type="submit" class="submitinput" value="<?php _e('Search'); ?>"></input>
 			</div>
 			</form>
+            -->
 			<span class="clear"></span>
 		</div>
 	</div>
