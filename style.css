@@ -27,8 +27,8 @@ a.external { background: url(/wp-includes/images/external.png) center right no-r
 /***** HEADER *****/
 
 .header_menu { background: #95AD5A; padding: 3px 0; }
-.header_menu .alignleft { width: 600px; font-size: 12px; margin-top: 2px;}
-.header_menu .alignright { width: 300px; text-align: right;}
+.header_menu .alignleft { width: 900px; font-size: 12px; margin-top: 2px;}
+.header_menu .alignright { width: 0px; text-align: right;}
 .header_menu .textinput { padding: 1px; border: solid 1px #666; width: 120px;}
 .header_menu .submitinput { background: #fff; border: solid 1px #666; margin-right: 5px;}
 .header_menu ul { list-style: none; padding: 0; margin: 0; }
@@ -36,7 +36,7 @@ a.external { background: url(/wp-includes/images/external.png) center right no-r
 .header_menu ul li a { margin-right: 8px; display: block; padding: 0 7px; text-align: center; float: left; color: #FEFEFE; text-decoration: none; font-weight: bold; }
 
 .header { background: #CAE9FB; padding: 15px 0 7px 0; margin-bottom: 10px;}
-.header { background-image: url(images/header.jpg); background-repeat: no-repeat; background-position: center;  }
+.header { background-image: url(images/LexFarm.jpg); background-repeat: no-repeat; background-position: center;  }
 .header h1 { font-size: 45px;; font-family: 'Arial','Trebuchet'; color: #FEFEFE; }
 .header h1 a { padding: 4px; color: #FEFEFE; text-decoration: none;}
 .header p { font-size: 14px; color: #FEFEFE; width: 400px; margin: 0px 0px 30px 7px; }
@@ -109,7 +109,7 @@ a.external { background: url(/wp-includes/images/external.png) center right no-r
 #Private a { color: #000000; }
 #Private ul li { color: #000000; border-bottom: solid 1px #000000; }
 
-#petition h3,h4 { font-weight: bold; text-align: center; font-family: verdana }
+.sidebar-action h3,h4 { font-weight: bold; text-align: center; font-family: verdana }
 #upcoming h3,h4 { font-weight: bold; text-align: center; font-family: verdana }
 #upcoming {text-align: center; margin-bottom: 10px}
 #delicious-posts-lbjay h2 { font-family: 'Georgia','Times New Roman'; text-decoration: none }
