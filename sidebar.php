@@ -24,22 +24,21 @@
             <a href="http://lexfarm.org/archives/424">more info...</a>
         </div>
         -->
+        <?php if (!is_page('take-action')) : ?>
+        <div class="sidebar sidebar-action" id="takeaction">
+            <h3><a href="http://lexfarm.org/take-action">Take Action!</a></h3>
+            <h4>Call or Write the Selectmen</h4>
+        </div>
+        <?php endif; ?>
         <?php if (!is_page('farm-petition')) : ?>
-        <div class="sidebar" id="petition">
+        <div class="sidebar sidebar-action" id="petition">
             <h3><a href="http://lexfarm.org/farm-petition">Sign The Petition!</a></h3>
             <h4>Support Community Farming in Lexington</h4>
         </div>
         <?php endif; ?>
-        <?php if (is_home()) : ?> 
-        <div class="sidebar" id="Welcome">
-			<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar('Welcome_Sidebar') ) : else : ?>
-			<div class="item">
-            </div>
-            <?php endif; ?>
-        </div>
-        <?php endif; ?>
 		<div class="sidebar" id="Blue">
 			<?php if ( function_exists('dynamic_sidebar') ) dynamic_sidebar('Blue_Sidebar'); ?>
+            <!--
 			<div class="item">
 				<h3>Latest News</h3>
 					 <ul class="full">
@@ -70,7 +69,14 @@
 					 <?php endforeach; ?>
 					 </ul>
 			</div>
+            -->
 		</div>
+        <div class="sidebar" id="Welcome">
+			<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar('Welcome_Sidebar') ) : else : ?>
+			<div class="item">
+            </div>
+            <?php endif; ?>
+        </div>
 		<div class="sidebar" id="Orange">
 			<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar('Orange_Sidebar') ) : else : ?>
 			<div class="item">
