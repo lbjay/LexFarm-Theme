@@ -2,6 +2,11 @@
 		<div class="leftcontent">
 			<?php if (have_posts()) : ?>
 			<?php while (have_posts()) : $postnum = $postnum + 1; the_post(); ?>
+            <?php 
+                if ( in_category('2') && 
+                     count(get_the_category()) == 1 &&
+                     !is_single() ) continue; 
+            ?>
 			<div class="post" id="post-<?php the_ID(); ?>">
 				<div class="posthead">
 					<h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
