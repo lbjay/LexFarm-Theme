@@ -32,4 +32,22 @@ if ( function_exists('register_sidebar') )
 		'after_title' => '</h3>',
 	));	
 
+function field_func($atts) {
+    global $post;
+    $name = $atts['name'];
+    if (empty($name)) return;
+    return get_post_meta($post->ID, $name, true);
+}
+
+add_shortcode('field', 'field_func');
+
+#function exclude_category($query) {
+#    if ( $query->is_home ) {
+#        $query->set('cat', '-2');
+#    }
+#    return $query;
+#}
+#
+#add_filter('pre_get_posts', 'exclude_category');
+
 ?>
