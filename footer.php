@@ -3,7 +3,6 @@
 </div>
 <div class="footer">
 	<p><span class="alignleft">&copy; <?php bloginfo('name'); ?> 2008</span>
-	<span class="alignright">Created by <a href="http://www.wppal.com" target="blank" title="Wordpress Theme Generator">Wordpress Theme Generator</a></span>
 	</p>
 	<div class="clear"></div>
 </div>
