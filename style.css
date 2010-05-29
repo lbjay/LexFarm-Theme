@@ -138,7 +138,7 @@ a.external { background: url(/wp-includes/images/external.png) center right no-r
 /*** COMMENTS ***/
 
 .comentariu, .commentform { width: 500px; padding: 10px; }
-.alt, .commentform { background: #F1F9FB url(images/postheadbg.jpg) no-repeat right bottom; }
+div.alt, .commentform { background: #F1F9FB url(images/postheadbg.jpg) no-repeat right bottom; }
 .comment-meta { font-weight: bold; color: #6E999D; border-bottom: solid 1px #B4D3D8; padding-bottom: 5px; }
 .comment-meta span { font-size: 14px; }
 .comment-meta span a, .comment-meta a { color: #27909A; text-decoration: none; }
