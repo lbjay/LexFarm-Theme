@@ -12,6 +12,7 @@
 </head>
 <body>
 <div class="inbody">
+            <!--
 	<div class="header_menu">
 		<div class="wrap">
 			<div class="alignleft">
@@ -21,26 +22,28 @@
                 <li class="page_item"><a href="/category/events">Calendar</a></li>
                 </ul>
 			</div>
-            <!--
 			<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
 			<div class="alignright">
 				<input type="text" class="textinput" value="<?php echo wp_specialchars(stripslashes($_GET['s']), true) ?>" name="s" id="s"></input>
 				<input type="submit" class="submitinput" value="<?php _e('Search'); ?>"></input>
 			</div>
 			</form>
-            -->
 			<span class="clear"></span>
 		</div>
 	</div>
-	<div class="header">
-		<div class="wrap">
+            -->
+    <div class="wrap">
+        <img width="535" src="<?php bloginfo('template_url'); ?>/images/FINAL-LexFarm-tomato-logos-ie10-color.gif"/>
+        <!--
+        <div class="header leftcontent">
 			<h1><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
 			<p><?php bloginfo('description'); ?></p>
 			<ul>
 				<?php wp_list_pages('meta_key=main_menu&meta_value=1&sort_column=menu_order&title_li=&depth=1'); ?>
 			</ul>
 			<div class="clear"></div>
-		</div>
-		</div>
-		<div class="content">
+        </div>
+            -->
+    </div>
+    <div class="content">
             

@@ -22,12 +22,12 @@ a:hover { color: #000000; }
 a.external { background: url(/wp-includes/images/external.png) center right no-repeat; padding-right: 18px; }
 
 .alignright { float: right; }
-.wrap, .content, .header_menu, .header, .footer { width: 900px; margin: 0 auto; }
+.wrap, .content, .header_menu, .footer { width: 900px; margin: 0 auto; }
 
 /***** HEADER *****/
 
-.header_menu { background: #95AD5A; padding: 3px 0; }
-.header_menu .alignleft { width: 900px; font-size: 12px; margin-top: 2px;}
+.header_menu { background: #95AD5A; padding: 3px 0; margin: 3px auto; }
+.header_menu .alignleft { width: 900px; font-size: 14px; margin-top: 2px;}
 .header_menu .alignright { width: 0px; text-align: right;}
 .header_menu .textinput { padding: 1px; border: solid 1px #666; width: 120px;}
 .header_menu .submitinput { background: #fff; border: solid 1px #666; margin-right: 5px;}
@@ -36,7 +36,7 @@ a.external { background: url(/wp-includes/images/external.png) center right no-r
 .header_menu ul li a { margin-right: 8px; display: block; padding: 0 7px; text-align: center; float: left; color: #FEFEFE; text-decoration: none; font-weight: bold; }
 
 .header { background: #CAE9FB; padding: 15px 0 7px 0; margin-bottom: 10px;}
-.header { background-image: url(images/LexFarm.jpg); background-repeat: no-repeat; background-position: center;  }
+.header { background-image: url(images/FINAL-LexFarm-tomato-logos-ie10-color.gif); background-repeat: no-repeat; background-position: center;  }
 .header h1 { font-size: 45px;; font-family: 'Arial','Trebuchet'; color: #FEFEFE; }
 .header h1 a { padding: 4px; color: #FEFEFE; text-decoration: none;}
 .header p { font-size: 14px; color: #FEFEFE; width: 400px; margin: 0px 0px 30px 7px; }
@@ -45,7 +45,7 @@ a.external { background: url(/wp-includes/images/external.png) center right no-r
 
 .header ul { list-style: none; padding: 0; margin: 0; }
 .header ul li { display: inline; }
-.header ul li a { margin-left: 10px; background: #fefefe; display: block; padding: 10px; text-align: center; float: left; font-size: 14px; color: #5fa6cf; text-decoration: none; font-weight: bold;}
+.header ul li a { margin-left: 10px; background: #fefefe; display: block; padding: 10px; text-align: center; float: left; font-size: 12px; color: #5fa6cf; text-decoration: none; font-weight: bold;}
 .header ul li.current_page_item a, .header ul li.current_page_item a:hover { background: #fefefe; color: #030303; }
 .header ul li a:hover { background: #35789F; color: #fefefe; }
 
@@ -53,7 +53,7 @@ a.external { background: url(/wp-includes/images/external.png) center right no-r
 /***** CONTENT TAGS ****/
 
 .leftcontent { width: 535px; float: left; margin-right: 15px; 	}
-.rightcontent { width: 320px; float: right; }
+.rightcontent { width: 320px; float: right; margin-top: -160px }
 
 /**** ARTICLE ****/
 
@@ -102,12 +102,7 @@ a.external { background: url(/wp-includes/images/external.png) center right no-r
 #Welcome { background: #F4FDDE; color: #5F6454; }
 #Welcome h3 { color: #466200; border-bottom: solid 1px #CBD6B1; }
 #Welcome a { color: #000000; }
-#Welcome ul li { color: #5F6454; border-bottom: solid 1px #CBD6B1; }
-
-#Private { background: #FFCFDA; color: #000000; }
-#Private h3 { color: #000000; border-bottom: solid 1px #000000; }
-#Private a { color: #000000; }
-#Private ul li { color: #000000; border-bottom: solid 1px #000000; }
+#Welcome ul li { color: #5F6454; }
 
 .sidebar-action h3,h4 { font-weight: bold; text-align: center; font-family: verdana }
 #upcoming h3,h4 { font-weight: bold; text-align: center; font-family: verdana }
