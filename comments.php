@@ -63,7 +63,7 @@
 				<span>Name*:</span>
 				<input class="input" type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="2" />
 				
-				<span>Mail Adress*:</span>
+				<span>E-Mail Address*: (will not be published)</span>
 				<input class="input" type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="3" />
 				
 				<span>Blog:</span>

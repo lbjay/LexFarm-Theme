@@ -33,7 +33,7 @@
 	</div>
             -->
     <div class="wrap logo">
-        <a href="<?php bloginfo('url'); ?>"><img id="logo" width="535" src="<?php bloginfo('template_url'); ?>/images/FINAL-LexFarm-tomato-logos-ie10-color.gif"/></a>
+        <a href="<?php bloginfo('url'); ?>"><img id="logo" width="900" src="<?php bloginfo('template_url'); ?>/images/LexFarm_website_HEADER_v1_08-10.jpg"/></a>
         <!--
         <div class="header leftcontent">
 			<h1><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
