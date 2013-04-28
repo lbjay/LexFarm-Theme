@@ -2,7 +2,7 @@
 </div>
 </div>
 <div class="footer">
-	<p><span class="alignleft">&copy; <?php bloginfo('name'); ?> 2008</span>
+	<p><span class="alignleft">&copy; <?php bloginfo('name'); ?> <?php echo date("Y") ?></span>
 	</p>
 	<div class="clear"></div>
 </div>

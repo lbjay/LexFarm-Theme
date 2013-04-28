@@ -162,9 +162,12 @@ span.wpcf7-list-item {
 display:block;
 }
 
+/* This is Jay's hack to have the first item in the sidebar highlighted, e.g., "Become a Member" */
 #Welcome div:first-child li:first-child a {
     color: #fdfdfd;
     padding: 2px 5px;
-    font-size: 150%;
+    font-size: 100%;
     background: #45B44E;
 }
+
+
