@@ -1,10 +1,12 @@
 		<div class="rightcontent">
+        <!--
         <div class="sidebar" id="Welcome">
 			<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar('Welcome_Sidebar') ) : else : ?>
 			<div class="item">
             </div>
             <?php endif; ?>
         </div>
+        -->
 		<div class="sidebar" id="Blue">
 			<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar('Blue_Sidebar') ) : else : ?>
 			<div class="item">
